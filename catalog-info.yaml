@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "httpbin"
+  description: "httpbin"
+  annotations:
+    github.com/project-slug: zirain/httpbin-demo
+    tetrate.io/tis-cluster: demo
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/guests"
