@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: zirain/httpbin-demo
     tetrate.io/tis-cluster: demo
+    argocd/app-name: httpbin
 spec:
   type: website
   lifecycle: experimental
